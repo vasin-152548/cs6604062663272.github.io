@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a,
+      .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: white;
+        color: black;
+      }
+
+      li.dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: white;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body style="background-color: aqua">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li class="dropdown">
+        <a href="" class="dropbtn">Lab1+</a>
+        <div class="dropdown-content">
+          <a href="Lab1/Lab1no1.html">Lab1no1</a>
+          <a href="Lab1/Lab1no2.html">Lab1no2</a>
+          <a href="Lab1/Lab1no3.html">Lab1no3</a>
+          <a href="Lab1/Lab1no4.html">Lab1no4</a>
+        </div>
+        <li><a href="">Lab2</a></li>
+        <li><a href="">Lab3</a></li>
+        <li><a href="">Lab4</a></li>
+
+      </li>
+    </ul>
+  </body>
+</html>
